@@ -18,7 +18,7 @@
 
 **[在线预览 &rarr;](https://hufangfang1.github.io/)**
 
-![screenshot home](https://hufangfang1.github.io/assets/images/screenshots/home.png)
+![screenshot home](https://hufangfang1.github.io/assets/images/screenshots/WechatIMG39.jpeg)
 
 ## Fork 指南
 
