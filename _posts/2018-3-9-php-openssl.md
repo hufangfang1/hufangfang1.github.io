@@ -8,6 +8,7 @@ keywords: PHP, openssl
 
 首先要使用openssl提供的函数，PHP需要此扩展：
 ![screenshot php_openssl](https://hufangfang1.github.io/assets/images/screenshots/php_openssl.png)
+
 编译时加上此配置即可：`–with-openssl=/path/to/ssl`
 
 ## 首先看看如何对数据进行签名：
