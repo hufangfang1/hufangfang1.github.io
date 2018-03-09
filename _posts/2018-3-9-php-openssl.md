@@ -13,7 +13,7 @@ keywords: PHP, openssl
 
 ## 首先看看如何对数据进行签名：
 
-```
+```php
 // 测试数据
 $data = 'If you are still new to things, we’ve provided a few walkthroughs to get you started.';
  
@@ -62,7 +62,7 @@ var_dump($signature);
 
 ## 下面我们看看如何验签：
 
-```
+```php
 // 测试数据，同上面一致
 $data = 'If you are still new to things, we’ve provided a few walkthroughs to get you started.';
  
@@ -95,7 +95,7 @@ var_dump($verify); // int(1)表示验签成功
 ## 简单说完签名与验签，下面我们说说加密及解密。
 
 先看看加密：
-```
+```php
 // 测试数据
 $data = 'If you are still new to things, we’ve provided a few walkthroughs to get you started.';
  
@@ -112,7 +112,7 @@ openssl_public_encrypt($data, $encryptedData, $publickey);
 var_dump(base64_encode($encryptedData));
 ```
 再看看解密：
-```
+```php
 // 测试数据
 $data = 'If you are still new to things, we’ve provided a few walkthroughs to get you started.';
  
