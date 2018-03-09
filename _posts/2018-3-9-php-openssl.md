@@ -12,7 +12,8 @@ keywords: PHP, openssl
 
 ## 首先看看如何对数据进行签名：
 
-```// 测试数据
+```
+// 测试数据
 $data = 'If you are still new to things, we’ve provided a few walkthroughs to get you started.';
  
 // 私钥及密码
@@ -151,14 +152,17 @@ $padding为填充方式。
 
 ## 附录1 签名算法：
 
-算法	备注
-OPENSSL_ALGO_DSS1	此常量在PHP 5.0.0中添加
-OPENSSL_ALGO_SHA1	此常量在PHP 5.0.0中添加。为openssl_sign和openssl_verify方法的默认值。
-OPENSSL_ALGO_SHA224	此常量在PHP 5.4.8中添加
-OPENSSL_ALGO_SHA256	此常量在PHP 5.4.8中添加
-OPENSSL_ALGO_SHA384	此常量在PHP 5.4.8中添加
-OPENSSL_ALGO_SHA512	此常量在PHP 5.4.8中添加
-OPENSSL_ALGO_RMD160	此常量在PHP 5.4.8中添加
-OPENSSL_ALGO_MD5	此常量在PHP 5.0.0中添加
-OPENSSL_ALGO_MD4	此常量在PHP 5.0.0中添加
-OPENSSL_ALGO_MD2	此常量在PHP 5.0.0中添加。从PHP 5.2.13和PHP 5.3.2开始，这个常量只有在PHP编译时加入MD2的支持才有效。
+* 算法	                   备注
+* OPENSSL_ALGO_DSS1	此常量在PHP 5.0.0中添加
+* OPENSSL_ALGO_SHA1	此常量在PHP 5.0.0中添加。为openssl_sign和openssl_verify方法的默认值。
+* OPENSSL_ALGO_SHA224	此常量在PHP 5.4.8中添加
+* OPENSSL_ALGO_SHA256	此常量在PHP 5.4.8中添加
+* OPENSSL_ALGO_SHA384	此常量在PHP 5.4.8中添加
+* OPENSSL_ALGO_SHA512	此常量在PHP 5.4.8中添加
+* OPENSSL_ALGO_RMD160	此常量在PHP 5.4.8中添加
+* OPENSSL_ALGO_MD5	此常量在PHP 5.0.0中添加
+* OPENSSL_ALGO_MD4	此常量在PHP 5.0.0中添加
+* OPENSSL_ALGO_MD2	此常量在PHP 5.0.0中添加。从PHP 5.2.13和PHP 5.3.2开始，这个常量只有在PHP编译时加入MD2的支持才有效。
+
+
+
