@@ -50,7 +50,8 @@ var_dump($signature);
 `$raw_output`表示是否返回原始数据，如果为`false`（默认）的话则返回binhex编码后的数据。
 
 事实上摘要的生成可以不使用openssl的这个方法，因为其实生成摘要就是对数据进行hash，我们可以用以下代码取代摘要生成部分：
-``` <pre class="brush:php;gutter:true;first-line:1;"> if (function_exists(‘hash’)) { $digest = hash($digestAlgo, $data, TRUE); } elseif (function_exists(‘mhash’)) { $digest =mhash(constant(“MHASH_” . strtoupper($digestAlgo)), $data); } $digest = bin2hex($digest); </pre> 
+``` 
+<pre class="brush:php;gutter:true;first-line:1;"> if (function_exists(‘hash’)) { $digest = hash($digestAlgo, $data, TRUE); } elseif (function_exists(‘mhash’)) { $digest =mhash(constant(“MHASH_” . strtoupper($digestAlgo)), $data); } $digest = bin2hex($digest); </pre> 
 ```
 使用hash方法有个好处就是支持的算法要比openssl_digest多很多。具体支持的算法可以调用hash_algos()方法查看。
 
@@ -85,10 +86,10 @@ var_dump($verify); // int(1)表示验签成功
 
 这里，我们又学习到两个新的方法：
 
-openssl_pkey_get_public ( mixed $certificate ) 这个方法用于加载公钥。
-$certificate为公钥的内容。 同样，这个方法也有个别名：此外，这个方法还有个别名：openssl_get_publickey。
+`openssl_pkey_get_public ( mixed $certificate )` 这个方法用于加载公钥。
+`$certificate`为公钥的内容。 同样，这个方法也有个别名：此外，这个方法还有个别名：openssl_get_publickey。
 
-openssl_verify ( string $data , string $signature , mixed $pub_key_id [, int $signature_alg = OPENSSL_ALGO_SHA1 ] ) 此方法用于验签。 $data为用于生成签名的数据。 $signature为上一步生成的签名。 $pub_key_id为加载的公钥。 $signature_alg为验签的算法。对应签名的算法。
+`openssl_verify ( string $data , string $signature , mixed $pub_key_id [, int $signature_alg = OPENSSL_ALGO_SHA1 ] ) `此方法用于验签。 $data为用于生成签名的数据。 $signature为上一步生成的签名。 $pub_key_id为加载的公钥。 $signature_alg为验签的算法。对应签名的算法。
 
 ## 简单说完签名与验签，下面我们说说加密及解密。
 
@@ -132,8 +133,8 @@ var_dump($sensitiveData); // 应该跟$data一致
 ```
 很简单。这里我们又学到两个新的方法：
 
-openssl_public_encrypt ( string $data , string &$crypted , mixed $key [, int $padding = OPENSSL_PKCS1_PADDING ] ) 此方法用于使用公钥进行加密。
-$data为需要加密的数据。
+`openssl_public_encrypt ( string $data , string &$crypted , mixed $key [, int $padding = OPENSSL_PKCS1_PADDING ] ) `此方法用于使用公钥进行加密。
+`$data`为需要加密的数据。
 $crypted为加密后的数据。
 $key为公钥。
 $padding为填充方式，默认为OPENSSL_PKCS1_PADDING，还可以是如下几个值：OPENSSL_SSLV23_PADDING, OPENSSL_PKCS1_OAEP_PADDING, OPENSSL_NO_PADDING。
