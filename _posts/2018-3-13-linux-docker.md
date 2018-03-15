@@ -28,3 +28,9 @@ keywords: Linux, PHP, Docker
 要删除全部image的话
 
 `docker rmi $(docker images -q)`
+
+## 4、查看容器详细信息
+
+`docker inspect (容器id)`
+
+包含有网络、数据卷、当前状态、配置信息等
