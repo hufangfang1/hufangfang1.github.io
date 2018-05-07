@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32d4cf0f-2a9c-451f-9558-a24431b0840c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2018-5-7-linux-port.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-5-7-linux-port.md" afterPath="$PROJECT_DIR$/_posts/2018-5-7-linux-port.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,8 +31,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-5-7-linux-port.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="75">
-                <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+              <first_editor relative-caret-position="795">
+                <caret line="53" column="14" lean-forward="false" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -217,12 +216,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525683902766</updated>
-      <workItem from="1525683905720" duration="245000" />
+      <workItem from="1525683905720" duration="448000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="245000" />
+    <option name="totallyTimeSpent" value="448000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="23" width="1396" height="877" extended-state="6" />
@@ -284,8 +283,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-5-7-linux-port.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <first_editor relative-caret-position="795">
+            <caret line="53" column="14" lean-forward="false" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
             <folding />
           </first_editor>
           <second_editor />
