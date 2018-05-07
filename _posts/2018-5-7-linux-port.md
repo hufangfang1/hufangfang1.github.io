@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Linux如何查看端口状态
-categories: linux
+categories: Linux
 description: linux 端口 状态
 keywords: linux port
 ---
