@@ -31,18 +31,20 @@
         <entry file="file://$PROJECT_DIR$/_posts/blog/2019-08-09-js-queue.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="345">
-                <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <first_editor relative-caret-position="435">
+                <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
                 <folding>
-                  <marker date="1565323820227" expanded="true" signature="490:989" ph="{...}" />
-                  <marker date="1565323820227" expanded="true" signature="528:978" ph="{...}" />
-                  <marker date="1565323820227" expanded="true" signature="705:775" ph="{...}" />
-                  <marker date="1565323820227" expanded="true" signature="779:844" ph="{...}" />
-                  <marker date="1565323820227" expanded="true" signature="1037:1091" ph="{...}" />
-                  <marker date="1565323820227" expanded="true" signature="1063:1087" ph="{...}" />
-                  <marker date="1565323820227" expanded="true" signature="1126:1370" ph="{...}" />
-                  <marker date="1565323820227" expanded="true" signature="1226:1364" ph="{...}" />
-                  <marker date="1565323820227" expanded="true" signature="1433:1508" ph="{...}" />
+                  <marker date="1565323963862" expanded="true" signature="263:465" ph="{&quot;channel&quot;: 'abc'...}" />
+                  <marker date="1565323963862" expanded="true" signature="413:460" ph="{...}" />
+                  <marker date="1565323963862" expanded="true" signature="490:1046" ph="{...}" />
+                  <marker date="1565323963862" expanded="true" signature="529:1044" ph="{...}" />
+                  <marker date="1565323963862" expanded="true" signature="730:813" ph="{...}" />
+                  <marker date="1565323963862" expanded="true" signature="817:895" ph="{...}" />
+                  <marker date="1565323963862" expanded="true" signature="1094:1148" ph="{...}" />
+                  <marker date="1565323963862" expanded="true" signature="1120:1144" ph="{...}" />
+                  <marker date="1565323963862" expanded="true" signature="1183:1427" ph="{...}" />
+                  <marker date="1565323963862" expanded="true" signature="1283:1421" ph="{...}" />
+                  <marker date="1565323963862" expanded="true" signature="1490:1565" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -261,18 +263,18 @@
       <workItem from="1528685151119" duration="216000" />
       <workItem from="1555399190440" duration="1310000" />
       <workItem from="1555553022877" duration="44000" />
-      <workItem from="1565323102917" duration="684000" />
+      <workItem from="1565323102917" duration="806000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6854000" />
+    <option name="totallyTimeSpent" value="6976000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="23" width="1396" height="825" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17799114" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -852,18 +854,20 @@
     <entry file="file://$PROJECT_DIR$/_posts/blog/2019-08-09-js-queue.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="345">
-            <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <first_editor relative-caret-position="435">
+            <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
             <folding>
-              <marker date="1565323820227" expanded="true" signature="490:989" ph="{...}" />
-              <marker date="1565323820227" expanded="true" signature="528:978" ph="{...}" />
-              <marker date="1565323820227" expanded="true" signature="705:775" ph="{...}" />
-              <marker date="1565323820227" expanded="true" signature="779:844" ph="{...}" />
-              <marker date="1565323820227" expanded="true" signature="1037:1091" ph="{...}" />
-              <marker date="1565323820227" expanded="true" signature="1063:1087" ph="{...}" />
-              <marker date="1565323820227" expanded="true" signature="1126:1370" ph="{...}" />
-              <marker date="1565323820227" expanded="true" signature="1226:1364" ph="{...}" />
-              <marker date="1565323820227" expanded="true" signature="1433:1508" ph="{...}" />
+              <marker date="1565323963862" expanded="true" signature="263:465" ph="{&quot;channel&quot;: 'abc'...}" />
+              <marker date="1565323963862" expanded="true" signature="413:460" ph="{...}" />
+              <marker date="1565323963862" expanded="true" signature="490:1046" ph="{...}" />
+              <marker date="1565323963862" expanded="true" signature="529:1044" ph="{...}" />
+              <marker date="1565323963862" expanded="true" signature="730:813" ph="{...}" />
+              <marker date="1565323963862" expanded="true" signature="817:895" ph="{...}" />
+              <marker date="1565323963862" expanded="true" signature="1094:1148" ph="{...}" />
+              <marker date="1565323963862" expanded="true" signature="1120:1144" ph="{...}" />
+              <marker date="1565323963862" expanded="true" signature="1183:1427" ph="{...}" />
+              <marker date="1565323963862" expanded="true" signature="1283:1421" ph="{...}" />
+              <marker date="1565323963862" expanded="true" signature="1490:1565" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
